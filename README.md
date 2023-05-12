@@ -52,16 +52,16 @@ nota: el modo "prod" elige como metodo de persistencia el servidor de la base de
 
 al ejecutarse el servidor en cualquier modo, la ejecución exitosa del mismo nos retornará un mensaje indicandonos el puerto y los modos de ejecución implementados:
 
-![imagen 0]
+![imagen_0](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/0.jpg)
 el servidor también nos indicará que la conexión con el servidor de base de datos "MongoDbAtlas" ha sido exitosa de ser posible.
 
 - Al ingresar a la ruta raíz "/" se abrirá el menú de logueo, el cuál nos permite ingresar al sistema mediante un usuario y contraseña previamente registrado.
 
-![imagen 1]
+![imagen_1](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/1.jpg)
 
 - En caso de no contar con una cuenta activa podemos crear una cuenta nueva ingresando al menú de registro y llenando el fomulario. 
 
-![imagen 3] 
+![imagen_3](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/3.jpg)
 - A los efectos de ejecutar las pruebas de servidor, es recomendable crear 2 usuarios, uno como administrador y otro como cliente, para evaluar los distintos cambios en el entorno que están adaptados a los distintos tipos de usuarios según sea el caso. 
 por ejemplo. un usuario de tipo cliente solo puede administrar su propia cuenta, ver productos, cargarlos al carrito, realizar una orden y ver su propio canal de chat.
 En cambio un usuario del tipo Administrador, tiene acceso total al sistema, este puede crear productos nuevos, modificar los existentes, eliminarlos, leer todos los canales de chat y responder a los distintos usuarios etc.
@@ -70,7 +70,7 @@ nota: todos los campos son obligatorios al realizar un nuevo registro de cuenta.
 
 - Una vez habiendo registrado satisfactoriamente una nueva cuenta, el sitio nos redirigirá al menu de loggeo. donde podremos ingresar el email y la contraseña previamente registradas e ingresar al sitio principal de sistema. (ubicado en /productos)
 
-! [imagen 4]
+![imagen_4](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/4.jpg)
 
 - en el sitio principal del sistema se puede apreciar los distintos menus para operar el sitio, como para ver el carrito, el chat, las ordenes, cerrar sesión etc. 
 mas abajo (para el caso de los administradores unicamente, se puede observar un menú especial de administrador, que muestra links a sitios para crear productos, información del sistema que opera el servidor, los parametros y variables criticas del servidor y el acceso al chat de administradores, que es una instancia que nos permite ver todos los canales de chats, y responder las preguntas que los clientes hagan.)
@@ -82,45 +82,45 @@ nota: este menú de categorías es dinámico y muestra los botones según hayan 
 
 - al presionar el botón "ver producto" veremos los siguientes campos. 
 
-![imagen 5]
+![imagen_5](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/5.jpg)
 en esta tarjeta individual, se puede observar que 2 nuevos botónes han aparecido, uno para editar el producto y otro para eliminarlo (estos botones son únicamente accesibles en una cuenta de administrador.)
 
-![image 6]
+![imagen_6](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/6.jpg)
 al editar un producto, nos aparecerá un formulario prellenado con los datos del producto, estos se pueden modificar, pero no se permite confirmar una modificación con algún campo vacío. sino el servidor no procesará el pedido. 
 
 - el botón superior "carrito" muestra los productos cargador al mismo, con la opción de quitarlos si nos arrepentimos previo a la confirmación.
 
-![imagen 7]
+![imagen_7](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/7.jpg)
 
 el botón del menú "chat" accede al canal propio del cliente, esta parte del sitio es accesible tanto para usuarios del tipo cliente como para administradores. 
 en este apartado, el cliente puede enviar sus preguntas al sistema, y estos quedan almacenados en la base de datos con un identificador basado en su correo electrónico.
 
-![imagen 8] 
+![imagen_8](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/8.jpg)
 nótese que los mensajes del cliente están coloreados siempre en verde están justificados a la derecha, y los mensajes del sistema (usuarios administradores) están coloreados en gris y se encuentran justificados a la izquierda para una mas facil diferenciación.
 cada mensaje tiene identificado quien escribe y cuando fué escrito.
 
 
 - en el menú exclusivo de administradores, se encuentra el botón "chat(admin)" es un acceso al servicio de mensajería general, este permite leer todos los canales registrados y contestar a los usuarios individualmente. (este componente es solo exclusivo para los usuarios administradores)
 
-![imagen 9]
+![imagen_9](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/9.jpg)
 
 - Botón del menú de administrador "+ producto" permite añadir un nuevo producto a la base de datos. 
 
-![imagen 10] 
+![imagen_10](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/10.jpg)
 nota: todos los campos son obligatorios para que el servidor procese la petición de ingreso del producto al sistema. 
 el campo de la imágen toma una url de una imagen previamente subida a internet, ya sea almacenada de forma publica en algún servidor o linkeada directamente desde algún servicio de busqueda tipo google.
 
 - El botón de "Info de sistema" muestra un listado con las características de donde se está corriendo el servidor, así como los parametros del servidor iniciado. 
 
-![imagen 11]
+![imagen_11](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/11.jpg)
 
 - El menú de administrador también cuenta con el botón "server(config)" que muestra un listado con las variables que toma el servidor para su funcionamiento, como el Puerto por defecto, su instancia por defecto, su modo de ejecución por defecto así también como los parametros de ecriptación y urls y keys necesarias para la utilización de servicios de mensajería y almacenamiento de terceros. 
 
-![imagen 12]
+![imagen_12](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/12.jpg)
 
 - El botón de "ordenes" ubicado junto a los botones de ir al home, carrito y chat, del menú superior, nos permite acceder al apartado donde se pueden observar todas las órdenes confirmadas según cliente.
 
-![imagen 13]
+![imagen_13](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/13.jpg)
 aquí se puede observar que cada orden está identificada según orden de aparición, la fecha y la hora de solicitud y los items y cantidades solicitadas. 
 
 ## Descripciones generales del servidor 🛠️
@@ -128,7 +128,7 @@ aquí se puede observar que cada orden está identificada según orden de aparic
 - El servidor tiene 2 ramas de rutas diferenciadas, una de api (api) y otra para manejar las solicitudes de visualización en frontend (main)
 donde "main", hace referencia al manejo de solicitudes especiales que requieren una renderización por motor de plantillas, y "api" que maneja unicamente la recepción y envío de información en formato JSON.
 
-![imagen 14]
+![imagen_14](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/14.jpg)
 
 - El servidor dispone de un servicio de autenticación basado en "Passport" que verifica las credenciales de los usuarios logueados contrastandolos contra la información de usuarios almacenados en MongoDbAtlas.
 
@@ -138,7 +138,7 @@ donde "main", hace referencia al manejo de solicitudes especiales que requieren 
 
 - Ante una solicitud de una dirección no implementada, el servidor renderiza una plantilla en pug informando que la dirección solicitada no se encuentra. 
 
-![imagen 15]
+![imagen_15](https://github.com/robercepp/proyecto-final-backend/blob/main/docs/15.jpg)
 
 - Todas las rutas de tipo api tienen implementadas un sistema de chequeo de respuesta, esto se basa en codigos de respuesta html. 
 si el id de respuesta no fuese "200" (envío exitoso) ese devolverá una vista basada en ejs, incluyendo el código de error y el error en sí. 
