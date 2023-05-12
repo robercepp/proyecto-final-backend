@@ -1,0 +1,74 @@
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{titulo}}</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="menu-buttons">
+        <input
+          class="btn"
+          type="button"
+          value="Ir al Home"
+          onClick="window.location.reload()"
+        />
+        <input class="btn" type="button" value="carrito" onClick="seeCart()" />
+        <input class="btn" type="button" value="chat" onclick="location.href=`/chat/{{usuario}}`"/>
+        <input class="btn" type="button" value="ordenes" onclick="location.href='/orden'"/>
+      </div>
+      <h1 class="h1">Anabella Avena - Ecommerce</h1>
+      <div class="header-div">
+        <div class="user-options">
+          <div class="options-container">
+            <input
+              class="btn"
+              type="button"
+              value="cerrar sesión"
+              onclick="location.href='/logout'"
+            />
+          </div>
+          <div class="avatar-container">
+            <img class="avatar" src="/{{avatar}}" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="header">
+      <div class="description">
+        <div class="content">usuario activo:</div>
+        <div class="content" id="name">{{nombre}}</div>
+        <div class="content" id="last-name">{{apellido}}</div>
+      </div>
+      <div class="description">
+        <div class="content">email:</div>
+        <div class="content" id="user-name">{{usuario}}</div>
+      </div>
+      <div class="description">
+        <div class="content" id="user-type"></div>
+      </div>
+    </div>
+    <div id="context-menu"></div>
+    <div class="header" id="category-bar"></div>
+    <main id="main"></main> {{! aquí va el contenido dinamico de la pagina }}
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script>
+      const userEmail = `{{usuario}}`
+      </script>
+    <script>
+      const userDomicilio = `{{domicilio}}`
+    </script>
+    <script src="/js/main.js"></script>
+    <script>userType({{tipo}}, {{id}})</script>
+
+  </body>
+</html>

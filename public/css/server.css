@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0;
+  font-style: none;
+  color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-image: url("../background/background.jpg");
+  background-size: cover;
+}
+.params-container{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 7px;
+    width: fit-content;
+    height: fit-content;
+}
+h3{
+    width: 100%;
+    text-align: center;
+}
+.parameter{
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px ;
+}
+.parameter:hover{
+    transition: 1s ease-in-out all;
+    border: 1px solid lightcyan;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    color: darkslateblue;
+    font-weight: bold;
+    transition: 0.3s ease-in-out all;
+    margin: 5px;
+  }
+  
+  .btn:hover {
+    transition: 0.3s ease-in-out all;
+    background-color: darkviolet;
+    color: white;
+  }

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    font-style: none;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-image: url("../background/background.jpg");
+}
+h1, h2{
+    color: white;
+}
+.orders-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 7px;
+    border: 1px solid white;
+    width: 600px;
+    height: 750px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    gap: 5px;
+}
+.orden-container{
+    background-color: rgb(57, 60, 94);
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+.order-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.products-container{
+    border: 1px solid darkgoldenrod;
+    padding: 5px;
+    border-radius: 7px;
+    gap: 5px;
+}
+.product{
+    border: 1px solid lightgray;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 5px;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    color: darkslateblue;
+    font-weight: bold;
+    transition: 0.3s ease-in-out all;
+    margin: 5px;
+  }
+  
+  .btn:hover {
+    transition: 0.3s ease-in-out all;
+    background-color: darkviolet;
+    color: white;
+  }

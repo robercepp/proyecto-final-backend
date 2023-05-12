@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/server.css" />
+    <title>Configuración del servidor</title>
+  </head>
+  <body>
+    <h1>Configuración del servidor:</h1>
+    el servidor ha iniciado con los siguientes parámetros:
+    <div class="params-container">
+      <h3>parametros generales</h3>
+      <div class="parameter">Puerto de escucha: {{puerto}}</div>
+      <div class="parameter">Instancia de ejecución: {{modo}}</div>
+      <div class="parameter">Modo de ejecución: {{run}}</div>
+      <h3>parámetros de session</h3>
+      <div class="parameter">seed de encriptación: {{secret}}</div>
+      <div class="parameter">Tiempo de expiración de sesión (en ms):
+        {{expiracionSesion}}</div>
+      <h3>Persistencias</h3>
+      <div class="parameter">Url de servidor Mongo: {{mongourl}}</div>
+      <h3>Cliente de correos</h3>
+      <div class="parameter">Cuenta de Gmail saliente: {{gmailMail}}</div>
+      <div class="parameter">Las notificaciónes por correo se envía a:
+        {{emailNotificacion}}</div>
+      <h3>Parametros de Twilio</h3>
+      <div class="parameter">Twillio Acct Sid: {{twillioAcctSid}}</div>
+      <div class="parameter">Twilio Auth Token: {{twilioAuthToken}}</div>
+      <div class="parameter">Twilio Sender Number: {{twilioSenderNumber}}</div>
+      <div class="parameter">Twilio Receiver Number:
+        {{twilioReceiverNumber}}</div>
+    </div>
+
+    <input
+      class="btn bottom"
+      type="button"
+      value="volver"
+      onclick="location.href=`/productos`"
+    />
+  </body>
+</html>

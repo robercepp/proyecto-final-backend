@@ -1,0 +1,333 @@
+* {
+  margin: none;
+  padding: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+#context-menu {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  border: 2px solid bisque;
+  background-color: beige;
+  border-radius: 5px;
+}
+
+#main {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  background-color: beige;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100px;
+}
+
+.menu-name {
+  color: darkslateblue;
+}
+
+.h2,
+h3,
+h1 {
+  color: darkslateblue;
+}
+
+.no-cart {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-div {
+  display: flex;
+  flex-direction: column;
+  align-items: middle;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 250px;
+  margin: 10px 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.card-container:hover {
+  box-shadow: 0px 0px 7px 2px rgba(171, 170, 170, 0.71);
+}
+
+.image-container {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.image {
+  width: 200px;
+}
+
+.detail-container {
+  padding: 5px;
+}
+
+.descripcion-titulo {
+  color: darkslateblue;
+  font-weight: bolder;
+  text-align: justify;
+}
+
+.detalle-card {
+  color: darkslateblue;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.input-number {
+  width: 45px;
+  text-align: center;
+}
+
+.input {
+  border: 2px solid grey;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  padding: 10px;
+  color: darkslateblue;
+  font-weight: bold;
+  transition: 0.3s ease-in-out all;
+  margin: 5px;
+}
+
+.btn:hover {
+  transition: 0.3s ease-in-out all;
+  background-color: darkviolet;
+  color: white;
+}
+
+.btn-small {
+  border: none;
+  width: 100px;
+  height: 20px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: darkslateblue;
+  font-weight: bold;
+  transition: 0.3s ease-in-out all;
+  margin: 5px;
+}
+
+.btn-small:hover {
+  transition: 0.3s ease-in-out all;
+  background-color: darkviolet;
+  color: white;
+}
+
+/* aquí comienzan los parametros para las paginas principales */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.input {
+  text-align: center;
+  background-color: azure;
+  border: 1px solid lightgray;
+}
+
+.login {
+  background-color: lightsteelblue;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.login-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightsteelblue;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.login-title {
+  color: darkblue;
+}
+
+.error {
+  color: white;
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+/* parametros de barra de usuario */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  background-color: beige;
+  border-radius: 5px;
+  padding: 10px;
+  height: 25px;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  margin: 0 10px;
+}
+
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: darkslateblue;
+  margin: 0 2px;
+}
+
+/* exclusivo register */
+.inputFile {
+  display: none;
+}
+
+.fileInp {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px 0px;
+  font-size: 15px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.filetext {
+  margin-bottom: 10px;
+}
+
+.avatar-container {
+  width: 100px;
+  height: 100px;
+  border: 2px solid lightskyblue;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.user-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+}
+
+.user-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* logout */
+
+.despedida-container {
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  width: 70%;
+  border-radius: 7px;
+}
+
+.despedida {
+  color: darkblue;
+}
+
+.flasher {
+  animation: blink 5s;
+}
+
+@keyframes blink {
+  0% {
+    border: 1px solid red;
+  }
+  25% {
+    border: 1px solid white;
+  }
+  50% {
+    border: 1px solid red;
+  }
+  75% {
+    border: 1px solid white;
+  }
+  100% {
+    border: 1px solid red;
+  }
+}
+
+.sin-producto{
+  color: darkblue;
+  font-weight: bold;
+  font-size: larger;
+}

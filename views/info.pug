@@ -1,0 +1,16 @@
+html
+  head
+    title= titulo
+    style 
+      include ../public/css/info.css
+  body(class="body")
+    h1 Info del servidor
+    div(class='info') Argumentos de entrada: #{args}
+    div(class='info') Nombre de la plataforma: #{plat}
+    div(class='info') Versión de Node.js: #{version}
+    div(class='info') Memoria total reservada: #{memoria}
+    div(class='info') Path de ejecución: #{exe}
+    div(class='info') Process Id: #{id}
+    div(class='info') Carpeta del proyecto: #{path}
+    div(class='info') Cantidad de procesadores: #{numCPUs}
+    a(href='/productos' class="btn") volver

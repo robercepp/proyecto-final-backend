@@ -1,0 +1,2 @@
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"libreta\" (type string) at path \"_id\" for model \"productos\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"libreta\"","value":"libreta","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"libreta\" (type string) at path \"_id\" for model \"productos\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"libreta\"","value":"libreta","valueType":"string"}

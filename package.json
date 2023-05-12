@@ -1,0 +1,35 @@
+{
+  "name": "ent-final-1",
+  "version": "1.0.0",
+  "description": "Primera entrega del proyecto final del curso de Backend para CoderHouse. Comisión 40280",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js -p 8080 -m FORK -r prod",
+    "dev": "nodemon server.js -p 8080 -m FORK -r dev"
+  },
+  "author": "Robertino Cepparo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.20.2",
+    "connect-mongo": "5.0.0",
+    "cookie-parser": "1.4.6",
+    "dotenv": "16.0.3",
+    "ejs": "3.1.9",
+    "express": "4.18.2",
+    "express-flash": "0.0.2",
+    "express-handlebars": "7.0.4",
+    "express-session": "1.17.3",
+    "mongoose": "6.8.4",
+    "multer": "1.4.5-lts.1",
+    "nodemailer": "6.9.1",
+    "passport": "0.4.1",
+    "passport-local": "1.0.0",
+    "pug": "3.0.2",
+    "socket.io": "4.6.1",
+    "twilio": "4.9.0",
+    "winston": "3.8.2",
+    "yargs": "17.7.1"
+  }
+}

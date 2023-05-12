@@ -1,0 +1,122 @@
+[
+  {
+    "nombre": "Libreta de Chicas Gamer",
+    "precio": 11.5,
+    "codigo": "libreta",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fchicasgamer.webp?alt=media&token=cd2afa50-c307-4573-8209-cda00b67814e",
+    "stock": "15",
+    "detalle": "Libreta de 80 hojas, tamaño A4 con motivos de Chicas Gamer, hoja a cuadros o a rayas.",
+    "id": 1,
+    "timestamp": 1672089128417
+  },
+  {
+    "nombre": "Libreta de Six Fanarts",
+    "precio": 10.5,
+    "codigo": "libreta",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fsixfanarts.webp?alt=media&token=695eaf91-f7d0-4b58-9289-141322b92248",
+    "id": 2,
+    "stock": 15,
+    "detalle": "Libreta de 80 hojas, tamaño A4 con motivos de Six Fanarsts, hoja a cuadros o a rayas.",
+    "timestamp": 1672089129423
+  },
+  {
+    "nombre": "Libreta de Lulu Martins",
+    "precio": 11,
+    "codigo": "libreta",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Flulumartins.webp?alt=media&token=34b1493c-4428-4576-a999-5c1b4a5e7e6e",
+    "id": 3,
+    "stock": 6,
+    "detalle": "Libreta de 80 hojas, tamaño A4 con motivos de Lulu Martins, hoja a cuadros o a rayas.",
+    "timestamp": 1672089130430
+  },
+  {
+    "nombre": "Libreta de Christine Hug",
+    "precio": 12,
+    "codigo": "libreta",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fchristinehug.webp?alt=media&token=7cab7c92-2bda-4859-ae78-877b953b4012",
+    "id": 4,
+    "stock": 8,
+    "detalle": "Libreta de 80 hojas, tamaño A4 con motivos de Christine Hug, hoja a cuadros o a rayas.",
+    "timestamp": 1674653344539
+  },
+  {
+    "nombre": "Stickers de Sirenas",
+    "precio": 3.5,
+    "codigo": "sticker",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fsirenas.webp?alt=media&token=44c4b86f-c3a4-4878-a665-c6b81d8234f0",
+    "id": 5,
+    "stock": 6,
+    "detalle": "Selección de 20 stickers con motivos de sirenas.",
+    "timestamp": 1672089132444
+  },
+  {
+    "nombre": "Stickers de Chicas",
+    "precio": 3,
+    "codigo": "sticker",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fchicas.webp?alt=media&token=7504acaf-c61c-4ee5-b235-69ea4ad119e9",
+    "id": 6,
+    "stock": 7,
+    "detalle": "Selección de 20 stickers con motivos de chicas y moda.",
+    "timestamp": 1672089133445
+  },
+  {
+    "nombre": "Stickers de Halloween",
+    "precio": 2.75,
+    "codigo": "sticker",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fhalloween.webp?alt=media&token=25deb9c1-3e04-4154-8c83-b879a5c592fc",
+    "id": 7,
+    "stock": 10,
+    "detalle": "Selección de 20 stickers con motivos de halloween.",
+    "timestamp": 1672089134451
+  },
+  {
+    "nombre": "Stickers de Animales",
+    "precio": 3.5,
+    "codigo": "sticker",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fanimales.webp?alt=media&token=1bd17888-2932-4d2a-8e0e-e24f87025788",
+    "id": 8,
+    "stock": 10,
+    "detalle": "Selección de 20 stickers con motivos de animales.",
+    "timestamp": 1672089135461
+  },
+  {
+    "nombre": "Poster de Una Noche de Verano",
+    "precio": "5.75",
+    "codigo": "poster",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fnocheverano.webp?alt=media&token=f58395a8-071e-479f-8e76-c1be23389752",
+    "stock": "6",
+    "detalle": "Poster tamaño A3+ impreso en papel ilustración de Una noche de Verano.",
+    "id": 9,
+    "timestamp": 1672089136469
+  },
+  {
+    "nombre": "Poster de Amantes Mariposa",
+    "precio": 6,
+    "codigo": "poster",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Famantesmariposa.webp?alt=media&token=4b7556ca-eb8b-4cea-ad2a-193b78880729",
+    "id": 10,
+    "stock": 8,
+    "detalle": "Poster tamaño A3+ impreso en papel ilustración de Amantes mariposa.",
+    "timestamp": 1672089137474
+  },
+  {
+    "nombre": "Poster de San Valentín espacial",
+    "precio": 5,
+    "codigo": "poster",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fsanvalentin.webp?alt=media&token=d350ebbb-c3d5-4303-bf59-e946171b4a9c",
+    "id": 11,
+    "stock": 10,
+    "detalle": "Poster tamaño A3+ impreso en papel ilustración de un San Valentín Espacial.",
+    "timestamp": 1672089138480
+  },
+  {
+    "nombre": "Poster de Gatos",
+    "precio": 5.5,
+    "codigo": "poster",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-fecd4.appspot.com/o/resources%2Fimagenes%2Fgatos.webp?alt=media&token=e73d07e1-788f-444c-ad65-3afa4300bd75",
+    "id": 12,
+    "stock": 7,
+    "detalle": "Poster tamaño A3+ impreso en papel ilustración con Gatitos.",
+    "timestamp": 1672089139490
+  }
+]
